@@ -19,4 +19,4 @@ Para cumplir con los requerimientos, se implementaron los siguientes eventos:
 * **Idiomas**: Francés avanzado e Inglés básico.
 
 ## Enlace al Proyecto
-Puedes ver el CV funcionando aquí: [PEGA_AQUÍ_TU_LINK_DE_GITHUB_PAGES]
+Puedes ver el CV funcionando aquí: https://luisayresvidal-dev.github.io/cv-Luis-interactivo/
