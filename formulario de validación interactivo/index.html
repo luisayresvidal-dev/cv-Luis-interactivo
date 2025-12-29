@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuarios</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+    <h2>Formulario de Registro</h2>
+    
+    <form id="registroForm">
+        <div>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+        </div>
+
+        <div>
+            <label for="correo">Correo Electrónico:</label><br>
+            <input type="email" id="correo" placeholder="ejemplo@correo.com">
+        </div>
+
+        <div>
+            <label for="edad">Edad:</label><br>
+            <input type="number" id="edad" placeholder="0">
+        </div>
+
+        <button type="submit" id="btnEnviar">Registrar</button>
+    </form>
+
+    <div id="mensajeEstado" style="margin-top: 20px; font-weight: bold;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

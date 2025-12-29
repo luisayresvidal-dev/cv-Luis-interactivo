@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Negocio Local - Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Un pequeño ajuste para que el contenido no quede debajo de la navbar fija */
+        body { padding-top: 70px; }
+        section { padding: 60px 0; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Negocio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#acerca">Acerca de</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 font-weight-bold">¡Bienvenidos a Nuestro Negocio!</h1>
+            <p class="lead">Nuestra misión es brindarte la mejor calidad con un trato cercano y profesional.</p>
+        </div>
+    </header>
+
+    <section id="acerca" class="container">
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <h3>Servicio 1</h3>
+                <p>Descripción breve de lo que ofrecemos en esta área para nuestros clientes.</p>
+                <button class="btn btn-outline-primary">Saber más</button>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h3>Servicio 2</h3>
+                <p> otro servicio estrella del negocio local.</p>
+                <button class="btn btn-outline-primary">Detalles</button>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h3>Servicio 3</h3>
+                <p>tercer servicio para completar la fila de tres columnas.</p>
+                <button class="btn btn-outline-primary">Ver precios</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Nombre</label>
+                            <input type="text" class="form-control" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" placeholder="nombre@ejemplo.com">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Comentarios</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Negocio local e IA - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
